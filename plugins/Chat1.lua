@@ -1,51 +1,51 @@
 local function run(msg)
 if msg.text == "hi" then
-	return "Hello bb"
+	return "سلام.لطفا فارسی چت کن دوست عزیزم"
 end
 if msg.text == "Hi" then
-	return "Hello honey"
+	return "سلام.لطفا از این پس فارسی چت کن"
 end
 if msg.text == "Hello" then
-	return "Hi bb"
+	return "سلام.اگه میشه فارسی چت کن.راستی خودتو معرفی میکنی؟"
 end
 if msg.text == "hello" then
-	return "Hi honey"
+	return "سلام دوست عزیزم.خوشحالم از آشنایی با شما"
 end
 if msg.text == "Salam" then
-	return "Salam aleykom"
+	return "سلام .من نمیشناسمت اصل میدی؟"
 end
 if msg.text == "salam" then
-	return "va aleykol asalam"
+	return "سلام.من نمیشناسمت اصل میدی؟"
 end
-if msg.text == "zac" then
-	return "Barash bezan sak"
+if msg.text == "alireza" then
+	return "علیرضا رو میشناسم .ادمین ربات هستند"
 end
-if msg.text == "Zac" then
-	return "Barash bezan sak"
+if msg.text == "Alireza" then
+	return "با علیرضا ادمین ربات کار داری؟"
 end
-if msg.text == "ZAC" then
-	return "Barash bezan sak"
+if msg.text == "ALIREZA" then
+	return "بابایی بیا دارن صدات میکنن"
 end
-if msg.text == "Umbrella" then
-	return "Yes?"
+if msg.text == "Gfx" then
+	return "انگار منو صدا زدی.بله درخدمتم"
 end
-if msg.text == "umbrella" then
-	return "What?"
+if msg.text == "gfx" then
+	return "سلام.انگار منو صدا زدی.چه کمکی از دست من بر میاد؟"
 end
 if msg.text == "bot" then
-	return "hum?"
+	return "بله.با من کاری داری؟"
 end
 if msg.text == "Bot" then
-	return "Huuuum?"
+	return "چرا منو صدا میکنی؟کاری داری ؟"
 end
-if msg.text == "?" then
-	return "Hum??"
+if msg.text == "سلام" then
+	return "سلام دوست عزیزم.جه کمکی از دست من بر میاد برات انجام بدم؟"
 end
 if msg.text == "Bye" then
-	return "Babay"
+	return "یک بار خداحفظی کردی که"
 end
 if msg.text == "bye" then
-	return "Bye Bye"
+	return "خدانگهدار دوست عزیز"
 end
 end
 
@@ -55,12 +55,12 @@ return {
 	patterns = {
 		"^[Hh]i$",
 		"^[Hh]ello$",
-		"^[Zz]ac$",
-		"^ZAC$",
+		"^[Aa]lireza$",
+		"^ALIREZA$",
 		"^[Bb]ot$",
-		"^[Uu]mbrella$",
+		"^[Gg]fx$",
 		"^[Bb]ye$",
-		"^?$",
+		"^سلام$",
 		"^[Ss]alam$",
 		}, 
 	run = run,
