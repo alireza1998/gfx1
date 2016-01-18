@@ -220,7 +220,19 @@ function create_config( )
     "invite",
     "all",
     "leave_ban",
-    "chat"
+    "chat",
+    "Google",
+    "Web_Shot",
+    "plugins",
+    "hi",
+    "qr",
+    "time",
+    "txt2img",
+    "tagall",
+    "media_handler",
+    "linkpv",
+    "Chat1",
+    "echo"
     },
     sudo_users = {122835592,159887854,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
