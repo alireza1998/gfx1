@@ -323,119 +323,119 @@ This command will send text to [group_id]
     help_text = [[
 لیست دستورات :
 
-[/!]kick [username|id]
+kick [username|id]
 ({اخراج کردن افراد از گروه{قابل انجام با ریپلی)
 
-[/!]ban [ username|id]
+ban [ username|id]
 ({بن کردن افراد از گروه{قابل انجام با ریپلی)
 
-[/!]unban [id]
+unban [id]
 ({خارج کردن افراد از حالت بن در گروه{قابل انجام با ریپلی)
 
-[/!]banall [id]
+banall [id]
 (بن کردن فرد مورد نظر از تمامی گروه های ربات)
 
-[/!]unbanall [id]
+unbanall [id]
 (خارج کردن فرد مورد نظر از محرومیت ورود به گروه های کل ربات)
 
-[/!]who
+who
 (لیست افراد موجود در گروه)
 
-[/!]modlist
+modlist
 (لیست مدیران موجود در گروه)
 
-[/!]promote [username]
+promote [username]
 (ارتقاء مقام به عنوان مدیریت )
 
-[/!]demote [username]
+demote [username]
 (سلب مقام مدیریت)
 
-[/!]kickme
+kickme
 (اخراج کردن من از گروه)
 
-[/!]about
+about
 (اطلاعات درباره گروه)
 
-[/!]setphoto
+setphoto
 (تنظیم و قفل کردن عکس گروه)
 
-[/!]setname [name]
+setname [name]
 (تنظیم نام برای گروه)
 
-[/!]rules
+rules
 (قوانین گروه)
 
-[/!]id
+id
 ({آیدی گروه و افراد{قابل انجام با ریپلی)
 
-[/!]lock [member|name|bots|arabic|leave]	
+lock [member|name|bots|arabic|leave]	
 (قفل کردن [ورود به گروه|نام گروه|ورود ربات ها|عربی|خروج از گروه])
 
 
-[/!]unlock [member|name|bots|leave]
+unlock [member|name|bots|leave]
 (باز کردن [ورود به گروه|نام گروه|ورود ربات ها|عربی|خروج از گروه])
 
-[/!]set rules <text>
+set rules <text>
 (تنظیم کردن <متن> برای قوانین گروه)
 
-[/!]set about <text>
+set about <text>
 (تنظیم کردن <متن> برای درباره گروه)
 
-[/!]settings
+settings
 (تنظیمات گروه)
 
-[/!]newlink
+newlink
 (ساختن/غیر فعال سازی لینک برای گروه)
 
-[/!]link
+link
 (نمایش دادن لینک گروه)
 
-[/!]linkpv
+linkpv
 (PVارسال لینک گروه به)
 
 [/!]echo <text>
 (قابلیت تکرار کردن متن مورد نظر توسط ربات)
 
-[/!]owner
+owner
 (نمایش دادن اونر گروه)
 
-[/!]setowner [id]
+setowner [id]
 (تنظیم اونر برای گروه)
 
-[/!]setflood [value]
+setflood [value]
 (تنظیم حساسیت نسبت به اسپم)
 
-[/!]stats
+stats
 (اطلاعات چت های گروه)
 
-[/!]save [value] <text>
+save [value] <text>
 (ذخیره <متن> و [عدد])
 
-[/!]get [value]
+get [value]
 (رجوع به [عدد])
 
-[/!]clean [modlist|rules|about]
+clean [modlist|rules|about]
 (پاک کردن[مدیران|قوانین|درباره گروه|افراد] گروه)
 
-[/!]res [username]
+res [username]
 ([درباره [آیدی فرد مورد نظر)
 
-[/!]time [local]
+time [local]
 (تاریخ و ساعت لحظه ای وقعیت مورد نظر شما)
 
-[/!]calc {÷,×,-,+}
+calc {÷,×,-,+}
 (ماشین حساب پیشرفته)
 
-[/!]conv <text>
+conv <text>
 (تبدیل متن به عکس)
 
-[/!]log
+log
 (آمار ورود و خروج)
 
-[/!]tagall <text>
+tagall <text>
 (ارسال متن مورد نظر به تمام آیدی های موجود در گروه)
 
-[/!]banlist
+banlist
 (لیست افراد بن شده)
 
 ]]
